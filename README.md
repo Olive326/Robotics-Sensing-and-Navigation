@@ -23,7 +23,14 @@ In this lab, I collected three kinds of GPS data:
 3. walking data as I walking approximately 200m
 
 ## Results
-here is the plot we get: gps1-6
+here is the plot we get: 
+/home/xingyue/Downloads/pic-of-lab/gps1.png
+/home/xingyue/Downloads/pic-of-lab/gps2.png
+/home/xingyue/Downloads/pic-of-lab/gps3.png
+/home/xingyue/Downloads/pic-of-lab/gps4.png
+/home/xingyue/Downloads/pic-of-lab/gps5.png
+/home/xingyue/Downloads/pic-of-lab/gps6.png
+
 It's clear that the occluded data have more error/deviation compared with opening data.
 
 ## Analysis
@@ -84,7 +91,7 @@ Since we don't have access to RTK GPS hardware, we use pre-collected datasets in
 - Data Collection Duration: 5 minutes 11 seconds
 
 ## Results & Analysis
-Here is the link of full report: https://drive.google.com/drive/folders/1PlWLl1iZByoK3ymxwEBpUAyies0ycJsj?dmr=1&ec=wgc-drive-globalnav-goto
+Here is the link of full report: (https://drive.google.com/drive/folders/1PlWLl1iZByoK3ymxwEBpUAyies0ycJsj?dmr=1&ec=wgc-drive-globalnav-goto)
 
 # Lab3
 I write a device driver that communicate with VectorNav IMU over USB serial and identify and device parameters and source the error using Allan variance tools.
@@ -118,7 +125,7 @@ Long-term drift
 **Slope: +1/2** on right side of plot
 Read at **τ = 3 seconds** (convention)
 
-reference: https://www.tangramvision.com/blog/the-allan-deviation-and-imu-error-modeling-part-4-of-5
+reference: (https://www.tangramvision.com/blog/the-allan-deviation-and-imu-error-modeling-part-4-of-5)
 
 
 ## Data collection
@@ -128,8 +135,7 @@ reference: https://www.tangramvision.com/blog/the-allan-deviation-and-imu-error-
 
 ## Results & Analysis
 Here is the Allan varaince plot i get, I can determined N B and K based on the curve:
-pic 
-
+/home/xingyue/Downloads/pic-of-lab/Allan-variables.png
  N (Angle Random Walk)( Read at τ=1s)
  Gyro X axis: 3×10⁻³ deg/√hr
  Gyro Y axis: 8×10⁻³
@@ -146,6 +152,9 @@ pic
  Gyro Z axis: 11
  
  Analyze of motion:
+/home/xingyue/Downloads/pic-of-lab/1.png
+/home/xingyue/Downloads/pic-of-lab/2.png
+/home/xingyue/Downloads/pic-of-lab/3.png
 - Fig4: Gyro Y shows large rotation about Y-axis while Gyro X and Gyro Z have smaller variations, which corresponds to a horizontal arm swing.
 - Fig5: Gyro X shows dominant peak, Gyro Y is also large but Gyro Z is the most stable one, which align with the 3D rotation motion.
 - Fig6: Gyro Y shows two peaks in the plot,which can perfectly represents my up and down motion in the picture. Also Gyro X maintains stable in the whole process.
