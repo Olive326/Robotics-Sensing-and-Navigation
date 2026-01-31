@@ -1,0 +1,27 @@
+GPS DATA SEGMENTATION SUMMARY
+========================================
+
+Total segments created: 3
+
+OCCLUDED SEGMENT:
+  Messages: 2579
+  Time span: 257.8s
+  HDOP range: 1.00 - 5.70
+  Directory: occluded_data/
+
+MOVING SEGMENT:
+  Messages: 2579
+  Time span: 257.8s
+  HDOP range: 1.00 - 5.50
+  Directory: moving_data/
+
+OPEN SEGMENT:
+  Messages: 2579
+  Time span: 257.8s
+  HDOP range: 1.00 - 5.70
+  Directory: open_data/
+
+Created directories:
+  occluded_data/
+  moving_data/
+  open_data/

@@ -1,0 +1,17 @@
+1.
+I installed Ubuntu 24.04 using dual boot on my Win.
+I downloaded the .iso file from the official ubuntu website and followed the instruction provided in the lab manual.
+The installation was successful. Now I can boot into Ubuntu and start working.
+The  major challenge I encountered was related to disk alllocation. 
+Initially, I shrinked 100G from my D drive and 80 G from E drive to support the Ubuntu installation. 
+However,during the setup, Ubuntu could only recognize one of the two unallocated spaces, and I couldn't merge or use both. 
+Since the partition configuration couldn't be changed from the UBuntu installer, 
+I rebooted into Windows, delted the E drive partition, and turned the entire E drive into unallocated space.
+After that, Ubuntu successfully recognized the full 180GB, and everthing worked properly.
+2.
+I installed Git on my Ubuntu system by running the command:
+sudo apt-install git
+I verified it with:
+git --version
+git version 2.43.0
+

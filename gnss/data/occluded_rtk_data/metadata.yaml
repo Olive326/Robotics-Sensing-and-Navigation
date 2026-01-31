@@ -1,0 +1,44 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 578699986497
+  starting_time:
+    nanoseconds_since_epoch: 1759956059442197235
+  message_count: 238
+  topics_with_message_count:
+    - topic_metadata:
+        name: /rtk
+        type: custom_interfaces/msg/Customrtk
+        serialization_format: cdr
+        offered_qos_profiles:
+          - history: unknown
+            depth: 0
+            reliability: reliable
+            durability: volatile
+            deadline:
+              sec: 9223372036
+              nsec: 854775807
+            lifespan:
+              sec: 9223372036
+              nsec: 854775807
+            liveliness: automatic
+            liveliness_lease_duration:
+              sec: 9223372036
+              nsec: 854775807
+            avoid_ros_namespace_conventions: false
+        type_description_hash: RIHS01_4e3e22685fb6a6a5aeed24eff48fb8356d6703286a152bd55563337f6da366b2
+      message_count: 238
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - occluded_rtk_data_0.mcap
+  files:
+    - path: occluded_rtk_data_0.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1759956059442197235
+      duration:
+        nanoseconds: 578699986497
+      message_count: 238
+  custom_data: ~
+  ros_distro: jazzy

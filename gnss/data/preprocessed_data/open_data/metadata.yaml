@@ -1,0 +1,30 @@
+rosbag2_bagfile_information:
+  version: 9
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 257799759313
+  starting_time:
+    nanoseconds_since_epoch: 1759164641938577008
+  message_count: 2579
+  topics_with_message_count:
+    - topic_metadata:
+        name: /gps
+        type: gps_driver/msg/Customgps
+        serialization_format: cdr
+        offered_qos_profiles:
+          []
+        type_description_hash: ""
+      message_count: 2579
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - open_data_0.mcap
+  files:
+    - path: open_data_0.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1759164641938577008
+      duration:
+        nanoseconds: 257799759313
+      message_count: 2579
+  custom_data: ~
+  ros_distro: jazzy
