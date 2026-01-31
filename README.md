@@ -24,13 +24,11 @@ In this lab, I collected three kinds of GPS data:
 
 ## Results
 here is the plot we get: 
-/home/xingyue/Downloads/pic-of-lab/gps1.png
-/home/xingyue/Downloads/pic-of-lab/gps2.png
-/home/xingyue/Downloads/pic-of-lab/gps3.png
-/home/xingyue/Downloads/pic-of-lab/gps4.png
-/home/xingyue/Downloads/pic-of-lab/gps5.png
-/home/xingyue/Downloads/pic-of-lab/gps6.png
-
+<img width="400" height="350" alt="gps1" src="https://github.com/user-attachments/assets/4e24ea40-b243-4636-bf38-2ce297ffc947" />
+<img width="400" height="350" alt="gps2" src="https://github.com/user-attachments/assets/ac2ae139-bb99-46cc-8bad-4e6e05a27b26" />
+<img width="400" height="350" alt="gps3" src="https://github.com/user-attachments/assets/eeb7afe2-21c6-4622-b8ab-ff2e9e2db571" />
+<img width="400" height="350" alt="gps4" src="https://github.com/user-attachments/assets/44fde23a-e80f-42b9-91eb-e2be3c7988a6" />
+<img width="400" height="350" alt="gps5" src="https://github.com/user-attachments/assets/65ba5567-25a4-4de4-8c54-f1fdf9b60378" />
 It's clear that the occluded data have more error/deviation compared with opening data.
 
 ## Analysis
