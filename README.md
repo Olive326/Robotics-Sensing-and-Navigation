@@ -138,7 +138,7 @@ reference: (https://www.tangramvision.com/blog/the-allan-deviation-and-imu-error
 ## Results & Analysis
 Here is the Allan varaince plot i get, I can determined N B and K based on the curve:
 <p align = "center">
-  <img width="500" height="150" alt="Allan-variables" src="https://github.com/user-attachments/assets/f26ddc94-9f8e-42cb-8555-7db7cc84b905" />
+  <img width="600" height="800" alt="Allan-variables" src="https://github.com/user-attachments/assets/f26ddc94-9f8e-42cb-8555-7db7cc84b905" />
 </p>
 
  N (Angle Random Walk)( Read at τ=1s)
