@@ -31,7 +31,7 @@ here is the plot we get:
   <img width="600" height="350" alt="gps3" src="https://github.com/user-attachments/assets/eeb7afe2-21c6-4622-b8ab-ff2e9e2db571" />
   <img width="400" height="350" alt="gps4" src="https://github.com/user-attachments/assets/44fde23a-e80f-42b9-91eb-e2be3c7988a6" />
   <img width="450" height="350" alt="gps5" src="https://github.com/user-attachments/assets/65ba5567-25a4-4de4-8c54-f1fdf9b60378" />
-</p>p
+</p>
 
 It's clear that the occluded data have more error/deviation compared with opening data.
 
@@ -137,7 +137,10 @@ reference: (https://www.tangramvision.com/blog/the-allan-deviation-and-imu-error
 
 ## Results & Analysis
 Here is the Allan varaince plot i get, I can determined N B and K based on the curve:
-/home/xingyue/Downloads/pic-of-lab/Allan-variables.png
+<p align = "center">
+  <img width="500" height="150" alt="Allan-variables" src="https://github.com/user-attachments/assets/f26ddc94-9f8e-42cb-8555-7db7cc84b905" />
+</p>
+
  N (Angle Random Walk)( Read at τ=1s)
  Gyro X axis: 3×10⁻³ deg/√hr
  Gyro Y axis: 8×10⁻³
@@ -154,12 +157,25 @@ Here is the Allan varaince plot i get, I can determined N B and K based on the c
  Gyro Z axis: 11
  
  Analyze of motion:
-/home/xingyue/Downloads/pic-of-lab/1.png
-/home/xingyue/Downloads/pic-of-lab/2.png
-/home/xingyue/Downloads/pic-of-lab/3.png
-- Fig4: Gyro Y shows large rotation about Y-axis while Gyro X and Gyro Z have smaller variations, which corresponds to a horizontal arm swing.
+ - Fig4: Gyro Y shows large rotation about Y-axis while Gyro X and Gyro Z have smaller variations, which corresponds to a horizontal arm swing.
+ - 
+<p align = "center">
+  <img width="500" height="200" alt="1" src="https://github.com/user-attachments/assets/80fa9cbf-680e-4af1-9ac8-7024574425ce" />
+</p>
+
 - Fig5: Gyro X shows dominant peak, Gyro Y is also large but Gyro Z is the most stable one, which align with the 3D rotation motion.
+
+<p align = "center">
+  <img width="500" height="200" alt="2" src="https://github.com/user-attachments/assets/8c61d276-8cef-4b8e-9b1b-7f1b9d6d0f20" />
+</p>
+
 - Fig6: Gyro Y shows two peaks in the plot,which can perfectly represents my up and down motion in the picture. Also Gyro X maintains stable in the whole process.
+- 
+<p align = "center">
+  
+  <img width="500" height="200" alt="3" src="https://github.com/user-attachments/assets/01edb730-b69a-4f5e-9f89-5323f08125b9" />
+</p>
+
 
 # Lab4
 
