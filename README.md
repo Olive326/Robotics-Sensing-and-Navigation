@@ -181,11 +181,15 @@ Here is the Allan varaince plot i get, I can determined N B and K based on the c
 
 # Lab4
 
+Introduce the principle of inertial odometry using walking data. This lab will demonstarte why navigation using IMU is a hard problem. 
 
 ## Data collection
+- Go outside to an area where you can walk in a circle of at least 5 m diameter.
+- Repeat the above steps with a square 5 m or larger on a side.
 
 ## Results & Analysis
-
+Here is the link of full report: 
+(https://drive.google.com/file/d/1XfKpxVAwXbKsNzllWgX2JQB47OrMjxlZ/view?usp=drive_link)
 
 # Lab5
 
