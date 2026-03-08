@@ -99,7 +99,9 @@ Here is the link of full report: (https://drive.google.com/drive/folders/1PlWLl1
 I write a device driver that communicate with VectorNav IMU over USB serial and identify and device parameters and source the error using Allan variance tools.
 
 **Why use  Allan Variance?**
+
 As IMU data contains various kinds of noises,which we could identify by coefficient N B K. But if the datasheet doesn't provide that,one approach is to analyze the power spectrum of your IMU an fit a model to find the coefficients. The most commonly used tool is Allan Variance.
+
 **Key IMU error Paramters**
 
 - Angle Random Walk
