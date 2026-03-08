@@ -193,11 +193,17 @@ Here is the link of full report:
 
 # Lab5
 
-
 ## Data collection
 
-## Results & Analysis
+To collect data from both the GPS and IMU sensors, create a single launch file that launches both your GPS & IMU driver nodes, and make sure you are able to see both gps and imu topics on your machine. 
+Mount the IMU inside your vehicle. You may wish to make an IMU holder (3D print, cardboard). Make sure that the x –axis is pointed forward and that the IMU is horizontal (verify with a leveling app on your phone). Fix the GPS puck to the roof
 
+- One rosbag from driving in a circle (calibration)
+- One rosbag from driving around the city
+
+## Results & Analysis
+Here is the link of full report: 
+(https://drive.google.com/file/d/12wT7cK2lU5-EBH6zxpYa64uPUCDeJg8D/view?usp=drive_link)
 
 
 
