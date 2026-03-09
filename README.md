@@ -102,7 +102,7 @@ I write a device driver that communicate with VectorNav IMU over USB serial and 
 
 As IMU data contains various kinds of noises,which we could identify by coefficient N B K. But if the datasheet doesn't provide that,one approach is to analyze the power spectrum of your IMU an fit a model to find the coefficients. The most commonly used tool is Allan Variance.
 
-**Key IMU error Paramters**
+Key IMU error Paramters
 
 - Angle Random Walk
 White noise in gyroscope measurements
