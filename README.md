@@ -109,25 +109,23 @@ White noise in gyroscope measurements
 High-frequency, random fluctuations
 changes every measurements
 
-**Allan Variance signature:**
+**N-Angle Random Walk(ARW):**
 **Slope: -1/2** on log-log plot
 Read at **τ = 1 seconds** 
 
-- Bias Instability (BI)
-Slow drift in sensor bias over time
-Bias randomly walks around
+- White noise on angular rate that integrates into angle error over time.
 
-**Allan Variance signature:**
-**Slope: flat region
+**B-Bias Instability(BI):**
+**Slope: flat region**
 Read at lowest point on the plot
 
-- Rate Random Walk (RRW)
-Bias change is itself random
-Long-term drift
+- It is correlated noise — the bias doesn't jump randomly but drifts slowly around a mean value.
 
-**Allan Variance signature:**
+**K-Rate Random Walk(RRW):**
 **Slope: +1/2** on right side of plot
 Read at **τ = 3 seconds** (convention)
+
+- The bias change is itself a random walk — meaning the bias drifts without bound over long periods.
 
 reference: (https://www.tangramvision.com/blog/the-allan-deviation-and-imu-error-modeling-part-4-of-5)
 
